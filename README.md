@@ -35,3 +35,14 @@ Impact Metrics are now controlled directly from `cura-config.js`.
 Edit only the values inside `CURA_CONFIG.impact`, save, commit and push. No HTML changes are needed.
 
 `cura-config.json` is retained as a reference copy, but the live page does not depend on fetching it.
+
+
+## V2.3.2 — Robust config loader
+
+`cura-config.js` is now the single editable source for Impact Metrics.
+
+- Edit only the values inside `CURA_CONFIG.impact`.
+- Push to GitHub.
+- Vercel redeploys automatically.
+- The loader works whether the DOM is still loading or already ready.
+- No JSON fetch is required by the live site.
