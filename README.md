@@ -26,3 +26,12 @@ To update a number:
 5. Vercel will redeploy and the live site will reflect the change.
 
 No HTML changes are required for the Impact Metrics.
+
+
+## V2.3.1 — Simplified Impact Metrics
+
+Impact Metrics are now controlled directly from `cura-config.js`.
+
+Edit only the values inside `CURA_CONFIG.impact`, save, commit and push. No HTML changes are needed.
+
+`cura-config.json` is retained as a reference copy, but the live page does not depend on fetching it.
