@@ -46,3 +46,47 @@ Edit only the values inside `CURA_CONFIG.impact`, save, commit and push. No HTML
 - Vercel redeploys automatically.
 - The loader works whether the DOM is still loading or already ready.
 - No JSON fetch is required by the live site.
+
+## V2.4 — lighter narrative
+- Added compact Impact snapshot to Home.
+- Reduced Home philosophy from six principles to three concise filters.
+- Simplified About page to focus on credibility and working style, removing framework-heavy sections.
+- Kept Perspectives thinking-led and Portfolio as the deeper proof of work.
+
+## V2.4 corrected Home layout
+Reworked the Home impact snapshot and filter sections with explicit, scoped layout rules and responsive behavior.
+
+## V2.4 final — Home content correction
+
+Restored the concise Home statement and a lighter three-part filter rather than removing the original context entirely. Home flow is now: Hero → Statement → Impact Snapshot → Filter → Portfolio.
+
+## V2.4.1 — Home rhythm
+Tightened the Hero-to-Statement spacing so the Home page does not create a large dead zone before the Impact Snapshot.
+
+## V2.4.2 — Home page pacing
+
+Rebuilt the Home middle flow cleanly and tightened vertical spacing. The sequence is Hero → Statement → Impact Snapshot → Filter → Portfolio, with the existing Portfolio section preserved.
+
+## V2.4.3 — tighter Home rhythm
+
+Reduced the vertical space between the Home hero, statement, and Impact Snapshot without changing the content or visual hierarchy.
+
+## V2.4.4 — overall page rhythm
+
+Applied the same tighter editorial pacing to the Portfolio page so the large hero area and transitions do not feel disproportionately spacious. Changes are scoped to Portfolio and do not alter content.
+
+## V2.4.5 — site-wide whitespace pass
+
+Reviewed and tightened vertical rhythm across Home, Portfolio, Perspectives, and About. Added explicit page classes and one coherent spacing layer instead of repeated incremental overrides.
+
+## V2.5 — CURA purpose statement
+
+Added the positioning line: “Helping deep-tech ideas cross the gap between research and real-world value.” to the Home hero, while preserving the existing narrative and site rhythm.
+
+## V2.5.1 — crisper CURA proposition
+
+Changed the Home positioning line to: “Connecting deep-tech ideas with research and real-world value.” and tightened its visual treatment.
+
+## V2.5.2 — site-wide content cleanup
+
+Reviewed Home, Portfolio, Perspectives and About for duplicated positioning, self-referential language and filler copy. Reduced explanatory text while preserving the portfolio evidence, engagement model and core voice.
