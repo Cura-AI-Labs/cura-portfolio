@@ -90,3 +90,17 @@ Changed the Home positioning line to: “Connecting deep-tech ideas with researc
 ## V2.5.2 — site-wide content cleanup
 
 Reviewed Home, Portfolio, Perspectives and About for duplicated positioning, self-referential language and filler copy. Reduced explanatory text while preserving the portfolio evidence, engagement model and core voice.
+
+
+Version 2.6 adds Navera Ventures as a fifth portfolio engagement and a featured link to the co-founder platform walkthrough. The video opens on LinkedIn because a directly embeddable video URL was not available.
+
+
+## V2.7 — Navera featured first
+- Moved Navera Ventures to the first position on Home and Portfolio.
+- Added Navera to the Home portfolio snapshot and renumbered the five engagements consistently.
+- Updated the co-founder/platform walkthrough link to the supplied YouTube video.
+- Standardized portfolio-card content alignment and spacing.
+
+
+## v3.0 homepage layout fix
+The homepage portfolio snapshot contains five cards: four standard cards in a 2×2 desktop grid, followed by the fifth card spanning both columns. On mobile, all five cards stack in one column. If a live deployment still shows six tiles, it is serving a different or cached version of index.html/styles.css; this ZIP itself contains five portfolio-card anchors in index.html.
