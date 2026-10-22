@@ -513,3 +513,15 @@ body.portfolio-page .portfolio-snapshot { padding-top: 6vh; padding-bottom: 6vh;
   .home-page .portfolio-snapshot.home-snapshot > a.portfolio-card:last-child p { margin: 0 0 42px; }
   .home-page .portfolio-snapshot.home-snapshot > a.portfolio-card:last-child .card-cta { position: absolute; bottom: 32px; left: 7vw; }
 }
+
+
+/* CURA v3.1 — editorial simplification */
+.home-impact-three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.metric-grid-three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.home-snapshot .portfolio-card p{max-width:390px;font-size:13px;line-height:1.55}
+.portfolio-card .tags{max-width:85%;line-height:1.5}
+.engagement-grid .engagement{min-height:185px}
+.engagement-grid .engagement h3{margin-top:24px}
+.impact .impact-close{max-width:760px;margin-top:28px;font-size:17px!important}
+@media(max-width:800px){.home-impact-three,.metric-grid-three{grid-template-columns:1fr 1fr}.home-impact-three>div:nth-child(2){border-right:0}.metric-grid-three .metric:nth-child(2n){border-right:0}.metric-grid-three .metric:nth-child(3){border-right:1px solid var(--line)}}
+@media(max-width:520px){.home-impact-three,.metric-grid-three{grid-template-columns:1fr}.home-impact-three>div,.metric-grid-three .metric{border-right:0!important}}

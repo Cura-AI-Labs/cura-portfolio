@@ -104,3 +104,16 @@ Version 2.6 adds Navera Ventures as a fifth portfolio engagement and a featured 
 
 ## v3.0 homepage layout fix
 The homepage portfolio snapshot contains five cards: four standard cards in a 2×2 desktop grid, followed by the fifth card spanning both columns. On mobile, all five cards stack in one column. If a live deployment still shows six tiles, it is serving a different or cached version of index.html/styles.css; this ZIP itself contains five portfolio-card anchors in index.html.
+
+
+## Version 3.1 — Content simplification
+- Reduced repeated positioning copy on Home.
+- Trimmed the Home impact snapshot to three indicators.
+- Shortened portfolio card copy and commercial engagement descriptions.
+- Reduced portfolio impact section to three indicators and removed the repeated four-part narrative.
+- Tightened company profiles while preserving the key engagement context and Navera walkthrough link.
+- Shortened About and Perspectives copy.
+
+
+## v3.2 content update
+The Home page no longer displays individual portfolio/start-up cards. Company profiles are presented only on the Portfolio page; the Home page retains a single portfolio navigation link in the hero.
